@@ -1,0 +1,48 @@
+% !TeX encoding = UTF-8
+% !TeX spellcheck = russian-aot
+% !TeX program = xelatex
+\documentclass[14pt, a4paper, titlepage]{extarticle}
+
+\usepackage[english, main=russian]{babel}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\usepackage[left=30mm, right=15mm, top=20mm, bottom=20mm]{geometry}
+
+\usepackage{microtype}
+\usepackage{lettrine}
+\renewcommand{\LettrineTextFont}{\upshape}
+
+\usepackage{authblk}
+
+\usepackage{csquotes}
+\usepackage[left={<<}, right={>>}, leftsub={„}, rightsub={“}]{dirtytalk}
+\usepackage[backend=bibtex]{biblatex}
+\addbibresource{source.bib}
+
+\linespread{1.3}
+\righthyphenmin=2
+\parskip=0pt
+\parindent=1.25cm
+
+\title{Title}
+\author{В.\,С.\,Верхотуров \\ БСБО-05-20}
+\affil{РТУ МИРЭА}
+
+\usepackage{hyperref}
+\hypersetup{pdftitle={Методы искусственного интеллекта}, pdfauthor={В. С. Верхотуров}}
+
+\begin{document}
+\maketitle
+
+
+\section{title}
+
+\lettrine{L}{orem} ipsum dolor sit amet~\cite{texbook}, consectetur adipiscing elit. Donec pellentesque odio id nulla tristique, sit amet venenatis risus laoreet. Pellentesque convallis placerat egestas. Aliquam in laoreet sapien. Mauris et pellentesque arcu, vitae iaculis orci. Sed tristique pellentesque nulla ac porttitor. Proin pretium mauris at gravida ornare. Quisque rhoncus non nulla ut rhoncus. Praesent facilisis turpis id ligula dignissim ultricies. Sed id malesuada libero. Cras iaculis, arcu ut imperdiet interdum, ex eros maximus augue, eget suscipit orci diam sed ex. Praesent vitae sem ut ante fringilla elementum ac bibendum enim. Fusce tempor turpis sed ultrices vestibulum.
+
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nec iaculis ante, a pharetra dolor. Nunc ac tempus turpis, vulputate rutrum erat. Vivamus in cursus ligula, sit amet blandit turpis. Nam auctor ultrices luctus. Integer sem ipsum, ornare ac ornare in, euismod et urna. Etiam tempor odio vel turpis consectetur, in molestie turpis facilisis. Fusce dictum magna metus, et feugiat ante faucibus nec. Donec scelerisque neque mi.
+
+In hac habitasse platea dictumst. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In tincidunt mollis velit. In auctor metus suscipit tristique dignissim. Mauris vestibulum urna ac dolor aliquam pellentesque. Vivamus elit sem, rutrum quis mauris a, blandit bibendum tellus. Vivamus eget interdum turpis. Etiam bibendum commodo diam non consequat. Nunc ante ex, volutpat quis nisi ac, placerat blandit dui. Cras nulla sem, sagittis nec fringilla eu, porta id felis. Duis velit sem, congue ut mattis nec, sagittis ac sem. Fusce bibendum metus vel diam semper auctor. Aliquam venenatis justo metus. Donec a dignissim neque.
+
+\printbibliography
+
+\end{document}
